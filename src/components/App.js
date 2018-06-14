@@ -1,7 +1,7 @@
 import React from 'react'
 
 //Without JSX
-// import './App.scss'
+import './App.scss'
 
 // function App(){
 //     return React.createElement('div', {}, 
@@ -16,6 +16,7 @@ const style = {
 
 function App() {
     return <div> 
+        <h1 className="title">Hello World</h1>
         <img style= {style} src= 'https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&h=350'/>
         <h1>HI!</h1>
         <p>Hello World</p>
