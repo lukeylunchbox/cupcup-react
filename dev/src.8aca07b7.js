@@ -19822,7 +19822,7 @@ var style = {
 function App() {
     return _react2.default.createElement(
         'div',
-        null,
+        { className: 'main' },
         _react2.default.createElement(
             'h1',
             { className: 'title' },
@@ -19830,7 +19830,7 @@ function App() {
         ),
         _react2.default.createElement('img', { style: style, src: 'https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&h=350' }),
         _react2.default.createElement(
-            'h1',
+            'h2',
             null,
             'HI!'
         ),
@@ -19841,6 +19841,11 @@ function App() {
         )
     );
 }
+
+// function App() {
+//     return <div className="main"> 
+
+// }
 
 exports.default = App;
 },{"react":7,"./App.scss":5}],2:[function(require,module,exports) {
@@ -19861,7 +19866,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var result = (0, _App2.default)();
 
 _reactDom2.default.render(result, document.getElementById('root'));
-},{"react-dom":4,"./components/App.js":3}],36:[function(require,module,exports) {
+},{"react-dom":4,"./components/App.js":3}],38:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -20031,5 +20036,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[36,2], null)
+},{}]},{},[38,2], null)
 //# sourceMappingURL=/src.8aca07b7.map
